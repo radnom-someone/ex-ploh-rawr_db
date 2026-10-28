@@ -10,23 +10,26 @@ h1{
     padding: 4px 0px 0px 32px;  
 }
 
-img{
+.profile img{
     float: right;
     position:relative;
-    bottom: 50px;
+    bottom: 10px;
     right: 80px;
     height: 250px;
     border: 1px solid black;
 }
 
-.name p {
+form {
     position: relative;
     top: 50px;
     padding: 0px 0px 0px 80px;
     font-size: 32px;
     width: 50%;
     border-radius: 25px;
+    display: inline-block;
+    height: auto;
 }
+
 
 .occ p {
     position: relative;
@@ -58,4 +61,15 @@ button {
     width: 20%;
     height: 30px;
     background-color: salmon;
+}
+
+.entry p {
+    position: relative;
+    text-align: left;
+    padding: 0px 0px 0px 80px;
+    font-size: 24px;
+}
+
+.entryLineToReplace p{
+    color:gray;
 }

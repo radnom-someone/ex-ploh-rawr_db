@@ -1,27 +1,52 @@
 <!DOCTYPE HTML>
 <html>
-<link rel="stylesheet" href="teacherProfile.css" />
+    <head>
+        <link rel="stylesheet" type="text/css" href="../common.css"/>
+        <link rel="stylesheet" href="../teacher/Home.css" /> <!-- For some reason the gradient on the sidebar relies on this rather than common -->
+        
+        <link rel="stylesheet" href="teacherProfile.css" /> 
+    </head>
+    <body>
+        <header>
+            <a href="#default" class="logo"><img src="tANA0h-1717114438.png" alt="dmfc"><span>Divine Mercy College Foundation Inc.</span></a>
+        
+        </header>
+        <header>
+        <h1>View teacher</h1>
+        </header>
 
-    <header><h1>ABOUT</h1></header>
-
-<img src="images.png" alt="user" />
-<body>
+        <div class="thirty-sixty">
+            <nav>
+                <ul class="nav-link">
+                    <li><a href="admin_home.html" class="nav-link">Home</a></li>
+                    <li><a href="default_content.html" class="nav-link">Dashboard</a></li>
+                    <li><a href="teacher_acc.html" class="nav-link">Content</a></li>
+                    <li><a href="student_acc.html" class="nav-link">Account</a></li>
+                    <li><a href="teacherProfile.html" class="nav-link">Settings</a></li>
+                </ul>
+            </nav>
+    <main>
     <div class="name">
-        <p contenteditable="true">USER1</p>
+        <p><form>
+            <input type="text" id="lname" placeholder="Last name" name="lname">
+            <input type="text" id="lname" placeholder="First name" name="fname">
+            <input type="text" id="lname" placeholder="M.I" name="mi">
+        </form></p>
+    
     </div>
-    <div class="occ">
-        <p>Occupation</p>
+
+    <div class="entry">
+        <p><strong>Credentials</strong></p>
+        <p>Occupation: </p>
+        <div class="entryLineToReplace">
+            <p>Teacher</p></div>
+        <p>Date joined: </p>
+        <div class="entryLineToReplace">
+            <p>YYYY/MM/DD</p></div>
     </div>
     
-    <div class="creds">
-        <p>Credenials</p>
-    </div>
-    <div class="date">
-        <p>Date Joined: 10/9/26</p>
-    </div>
-
-    <button type="button">LOG OUT</button>
-
+    <button type="button">Reset Password</button>
+</main>
+</div>
 </body>
-
 </html>
