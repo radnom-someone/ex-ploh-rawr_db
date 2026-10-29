@@ -7,7 +7,6 @@
     font-family: myFont;
 }
 table {
-    position: fixed;
     float: right;
     height: 100px;
     top: 50px;
@@ -20,20 +19,8 @@ th {
     border: 1px salmon;
 }
 
-.sel {
-    width: 10%;
-}
-
 .ques {
-    width: 30%;
-}
-
-.choice {
-    width: 30%;
-}
-
-.ans {
-    width: 30%;
+    width: 40%;
 }
 
 td {
@@ -56,3 +43,11 @@ select {
     width: 73%;
 }
 
+
+input{
+    width: 98%;
+}
+
+button {
+    background-color: salmon;
+}
