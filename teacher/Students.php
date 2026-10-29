@@ -31,10 +31,9 @@ $data = $retrieve_student->fetch_assoc();
         <div class="thirty-sixty">
             <nav>
                 <ul class="nav-link">
-                    <li><a href="Home.php" class="nav-link">Home</a></li>
-                    <li><a href="Home.php" class="nav-link">Dashboard</a></li>
-                    <li><a href="teacher_acc.html" class="nav-link">Content</a></li>
-                    <li><a href="student_acc.html" class="nav-link">Account</a></li>
+        <li><a href="Home.php" class="nav-link">Home</a></li>
+        <li><a href="Content.php" class="nav-link">Content</a></li>
+        <li><a href="teacherProfile.php" class="nav-link">Account</a></li>
                 </ul>
             </nav>
     <main>
@@ -50,7 +49,7 @@ $data = $retrieve_student->fetch_assoc();
         <p><strong>Credentials</strong></p> 
                 <div class="mastery">
             <p>Mastery: </p>
-            <?php echo "<p>" .  number_format(htmlspecialchars($data["Mastery"]), 2) . "</p>"; ?>
+            <?php echo "<p>" .  ($data["Mastery"]==null?"-":number_format(htmlspecialchars($data["Mastery"]), 2)) . "</p>"; ?>
         </div>
         <p>Full name: </p>
         <div class="entryLineToReplace">

@@ -14,9 +14,9 @@ def layout teacher
      <div class="thirty-sixty">
         <nav>
         <ul class="nav-link">
-            <li><a href="home.php" class="nav-link" target="_Home">Home</a></li>
-            <li><a href="Content.php" target="_Home">Content</a></li>
-            <li><a href="teacherProfile.php" class="nav-link" target="_Home">Profile</a></li>
+        <li><a href="Home.php" class="nav-link">Home</a></li>
+        <li><a href="Content.php" class="nav-link">Content</a></li>
+        <li><a href="teacherProfile.php" class="nav-link">Account</a></li>
         </ul">
         </nav>
     <main>
